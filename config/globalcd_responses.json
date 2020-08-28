@@ -1,0 +1,26 @@
+[
+  {
+    "name":"$user surveys the land, but there are no dinosaurs in sight.",
+    "probability":40
+  },
+  {
+    "name":"An unexpected rainstorm hit the immediate area. It should blow over in a couple of minutes.",
+    "probability": 20
+  },
+  {
+    "name":"$user stood too close to a gas vent and passed out.",
+    "probability":10
+  },
+  {
+    "name":"A volcano just errupted! Run for cover!",
+    "probability":10
+  },
+  {
+    "name":"$user was struck by $randusername's boomarang. Take a few minutes to recover.",
+    "probability":10
+  },
+  {
+    "name":"Sandstorm approaching! duDudu $user looks for a nearby cave.",
+    "probability":10
+  }
+]

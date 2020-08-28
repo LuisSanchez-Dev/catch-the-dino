@@ -1,0 +1,193 @@
+{
+    "output_file": "config.json",
+    "donate":{
+      "type"    : "button",
+      "label"   : "☕  ☕  Buy the dev a coffee  ☕  ☕",
+      "tooltip" : "Keep the development of free scripts going buying the developer a coffee!",
+      "function": "donate",
+      "wsevent" : "",
+      "group"   : ""
+    },
+    "contact":{
+      "type"    : "button",
+      "label"   : "Want a custom script?\n📧 Contact me!",
+      "tooltip" : "Click here to contact the script's developer luissanchezdev",
+      "function": "open_contact_me",
+      "wsevent" : "",
+      "group"   : ""
+    }, 
+    "open_readme":{
+      "type"    : "button",
+      "label"   : "📰 Open the README",
+      "tooltip" : "Click here  to open the README and see information about the license",
+      "function": "open_readme",
+      "wsevent" : "",
+      "group"   : ""
+    },  
+    "command": {
+      "type"   : "textbox",
+      "value"  : "!tame",
+      "label"  : "Start taming process",
+      "tooltip": "Command to start taming a dinosaur.",
+      "group"  : "User commands"
+    },
+    "cmd_feed": {
+      "type"   : "textbox",
+      "value"  : "!feed",
+      "label"  : "try to feed a dinosaur",
+      "tooltip": "Command to try to feed a dinosaur",
+      "group"  : "User commands"
+    },
+    "tame_prize": {
+      "type"   : "numberbox",
+      "label"  : "Base prize",
+      "value"  : 10,
+      "tooltip": "The output will be calculated with the size multiplier",
+      "group"  : "Prizes"
+    },
+    "small_mult": {
+      "type"   : "numberbox",
+      "label"  : "Small multiplier",
+      "value"  : 1,
+      "tooltip": "Multiply base prize by this when winning",
+      "group"  : "Prizes"
+    },
+    "medium_mult": {
+      "type"   : "numberbox",
+      "label"  : "Medium multiplier",
+      "value"  : 2,
+      "tooltip": "Multiply base prize by this when winning",
+      "group"  : "Prizes"
+    },
+    "big_mult": {
+      "type"   : "numberbox",
+      "label"  : "Big multiplier",
+      "value"  : 3,
+      "tooltip": "Multiply base prize by this when winning",
+      "group"  : "Prizes"
+    },
+    "usercd": {
+      "type"   : "numberbox",
+      "label"  : "User cooldown (minutes)",
+      "value"  : 30,
+      "tooltip": "Minutes to wait before a user can tame a dinosaur again.",
+      "group"  : "Cooldowns"
+    },
+    "globalcd": {
+      "type"   : "numberbox",
+      "label"  : "Global cooldown (minutes)",
+      "value"  : 3,
+      "tooltip": "Minutes to wait before any user can tame a dinosaur again after another.",
+      "group"  : "Cooldowns"
+    },
+    "firsttosecondwait": {
+      "type"   : "numberbox",
+      "value"  : "5",
+      "label"  : "1st to 2nd line wait (seconds)",
+      "tooltip": "Wait time between 1st and 2nd line.",
+      "group"  : "Wait times"
+    },
+    "secondtothirdwait": {
+      "type"   : "numberbox",
+      "value"  : "5",
+      "label"  : "2nd to third line wait (seconds)",
+      "tooltip": "Wait time between 2nd and 3rd line.",
+      "group"  : "Wait times"
+    },
+    "thirdtofourthwait": {
+      "type"   : "numberbox",
+      "value"  : "5",
+      "label"  : "3rd to last line wait (seconds)",
+      "tooltip": "Wait time between 2nd and 3rd line.",
+      "group"  : "Wait times"
+    },
+    "firstline": {
+      "type"   : "textbox",
+      "value"  : "$user attempts to tame $adjective $dino",
+      "label"  : "1st line",
+      "tooltip": "$user - User who called the command\n$rndlist1 - Random item of list 1\n$rndlist2 - Random item of list 2\nFirst line when someone starts taming.",
+      "group"  : "Taming messages"
+    },
+    "secondline": {
+      "type"   : "textbox",
+      "value"  : ". . .",
+      "label"  : "2nd line",
+      "tooltip": "Second line when someone starts taming.",
+      "group"  : "Taming messages"
+    },
+    "lose_response": {
+      "type"   : "textbox",
+      "value"  : "This dino ran away",
+      "label"  : "Response when you don't capture the dinosaur",
+      "tooltip": "Only shown when losing",
+      "group"  : "Taming messages"
+    },
+    "win_response": {
+      "type"   : "textbox",
+      "value"  : "This dino is tamed!!",
+      "label"  : "Response when you capture the dinosaur",
+      "tooltip": "Only shown when winning",
+      "group"  : "Taming messages"
+    },
+    "win_line": {
+      "type"   : "textbox",
+      "value"  : "$user won $points $currency for taming a $adjective $dino!",
+      "label"  : "Last message when the user wins",
+      "tooltip": "Only shown when winning",
+      "group"  : "Taming messages"
+    },
+    "edit_small_dinos":{
+      "type"    : "button",
+      "label"   : "✏ Edit small dinos list",
+      "tooltip" : "Click here to edit the small dinos list",
+      "function": "edit_small_dinos",
+      "wsevent" : "",
+      "group"   : "Edit dinosaurs lists"
+    },
+    "edit_medium_dinos":{
+      "type"    : "button",
+      "label"   : "✏ Edit medium dinos list",
+      "tooltip" : "Click here to edit the medium dinos list",
+      "function": "edit_medium_dinos",
+      "wsevent" : "",
+      "group"   : "Edit dinosaurs lists"
+    },
+    "edit_big_dinos":{
+      "type"    : "button",
+      "label"   : "✏ Edit big dinos list",
+      "tooltip" : "Click here to edit the big dinos list",
+      "function": "edit_big_dinos",
+      "wsevent" : "",
+      "group"   : "Edit dinosaurs lists"
+    },
+    "editglobalcdresponses":{
+      "type"    : "button",
+      "label"   : "✏ Edit global cooldown responses",
+      "tooltip" : "Click here to edit the global cd responses.",
+      "function": "edit_global_cd",
+      "wsevent" : "",
+      "group"   : "Edit cooldown responses"
+    },
+    "usercdbtn":{
+      "type"    : "button",
+      "label"   : "✏ Edit user cooldown responses",
+      "tooltip" : "Click here to edit the user cd responses.",
+      "function": "edit_user_cd",
+      "wsevent" : "",
+      "group"   : "Edit cooldown responses"
+    },
+    "feed_msg_win": {
+      "type"   : "textbox",
+      "value"  : "The $adjective $dino ate the food peacefully, you win $prize $currency",
+      "label"  : "Feed successful",
+      "tooltip": "Message shown when fed is successful",
+      "group"  : "Feeding messages"
+    },
+    "feed_msg_lose": {
+      "type"   : "textbox",
+      "value"  : "The $adjective $dino growls at you, better luck next time",
+      "label"  : "Feed unsuccessful",
+      "tooltip": "Message shown when fed is unsuccessful",
+      "group"  : "Feeding messages"
+    }
+}
