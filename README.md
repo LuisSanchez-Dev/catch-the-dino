@@ -30,9 +30,9 @@ This script was made because a client liked a gig I did before, so they wanted s
 
 You have small, medium and big dinosaurs, each of them with a different chance to appear when taming or feeding.
 There is a base prize and depending on the dinosaur size this prize gets multiplied:
-• Small dinosaur have a x1 multiplier
-• Medium dinosaur have a x2 multiplier
-• Big dinosaur have a x3 multiplier
+* Small dinosaur have a x1 multiplier
+* Medium dinosaur have a x2 multiplier
+* Big dinosaur have a x3 multiplier
 
 You can edit all the dinosaur names and even change them to be Pokemons or anything you want!
 
