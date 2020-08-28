@@ -4,7 +4,7 @@
   <h1 align="center">Catch the Dino</h1>
 
   <p align="center">
-    Have fun taming and feeding all kinds of dinosaurs for points.
+    With this Streamlabs Chatbot script have fun taming and feeding all kinds of dinosaurs for points.
     <br />
     <a href="https://github.com/LuisSanchez-Dev/catch-the-dino/archive/master.zip">Download</a>
     ·
