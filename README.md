@@ -61,8 +61,8 @@ Follow this tutorial to prepare your Streamlabs Chatbot installation to accept s
 ## Usage
 
 After installing you will have 2 new commands
-• `!tame` Lets you try to tame a dinosaur, if you are successful, you get points.
-• `!feed` Lets you try to feed a dinosaur and if you are successful, get some points.
+* `!tame` Lets you try to tame a dinosaur, if you are successful, you get points.
+* `!feed` Lets you try to feed a dinosaur and if you are successful, get some points.
 
 ## Contact
 
