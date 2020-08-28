@@ -2,6 +2,7 @@
 # Copyright (C) 2020 Luis Sanchez
 # 
 # Versions:
+#   - 1.0.1 08/27/2020: Fixed missing URL
 #   - 1.0.0 08/27/2020: Release
 
 import os
@@ -17,7 +18,7 @@ ScriptName  = "Catch the Dino"
 Description = "Win points taming dinosaurs from all sizes!"
 Creator     = "LuisSanchezDev"
 Website     = "https://www.fiverr.com/luissanchezdev"
-Version     = "1.0.0"
+Version     = "1.0.1"
 
 # Define Global Variables
 global PATH, CONFIG_FILE, SETTINGS
@@ -211,5 +212,7 @@ def donate():
   os.startfile("https://streamlabs.com/luissanchezdev/tip")
 def open_contact_me():
   os.startfile("https://www.fiverr.com/luissanchezdev")
+def open_contact_td():
+  os.startfile("https://www.fiverr.com/tecno_diana")
 def open_readme():
   os.startfile("https://github.com/LuisSanchez-Dev/catch-the-dino")
